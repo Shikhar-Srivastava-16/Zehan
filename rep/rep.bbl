@@ -1,0 +1,95 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{cms/global//global/global}
+    \entry{blum2024}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c348e11a9e7f34b17b0811660fa01649}{%
+           family={Blum},
+           familyi={B\bibinitperiod},
+           given={Avrim},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c348e11a9e7f34b17b0811660fa01649}
+      \strng{fullhash}{c348e11a9e7f34b17b0811660fa01649}
+      \strng{bibnamehash}{c348e11a9e7f34b17b0811660fa01649}
+      \strng{authorbibnamehash}{c348e11a9e7f34b17b0811660fa01649}
+      \strng{authornamehash}{c348e11a9e7f34b17b0811660fa01649}
+      \strng{authorfullhash}{c348e11a9e7f34b17b0811660fa01649}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{published online as pdf}
+      \field{note}{Initial theoretical referencing}
+      \field{title}{Machine Learning Theory}
+      \field{urlday}{30}
+      \field{urlmonth}{11}
+      \field{urlyear}{2024}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.cs.cmu.edu/~avrim/Talks/mlt.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.cs.cmu.edu/~avrim/Talks/mlt.pdf
+      \endverb
+    \endentry
+    \entry{unpingco2019}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f85ea6ee3d5f7f1d6bffca6b4a76314d}{%
+           family={Unpingco},
+           familyi={U\bibinitperiod},
+           given={JosÃ},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Cham}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{f85ea6ee3d5f7f1d6bffca6b4a76314d}
+      \strng{fullhash}{f85ea6ee3d5f7f1d6bffca6b4a76314d}
+      \strng{bibnamehash}{f85ea6ee3d5f7f1d6bffca6b4a76314d}
+      \strng{authorbibnamehash}{f85ea6ee3d5f7f1d6bffca6b4a76314d}
+      \strng{authornamehash}{f85ea6ee3d5f7f1d6bffca6b4a76314d}
+      \strng{authorfullhash}{f85ea6ee3d5f7f1d6bffca6b4a76314d}
+      \field{sortinit}{U}
+      \field{sortinithash}{6901a00e45705986ee5e7ca9fd39adca}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{note}{Background reading, used for references on ML Theory.}
+      \field{title}{Python for Probability, Statistics, and Machine Learning}
+      \field{year}{2019}
+      \true{nocite}
+      \warn{\item book entry 'unpingco2019' (ref.bib): Invalid format '2023-12-6' of date field 'urldate' - ignoring}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
