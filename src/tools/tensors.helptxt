@@ -1,0 +1,7 @@
+This is the beginning of the array toold help file
+Use the *help* function to print this file.
+
+Tensor struct implementation:
+
+    - Zeros: Tensor.Zeros is a function to initialize a Tensor of set dimensions.
+    - 

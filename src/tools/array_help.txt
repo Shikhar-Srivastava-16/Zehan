@@ -1,3 +1,0 @@
-This is the beginning of the array toold help file
-
-use the *help* function to print this file.
