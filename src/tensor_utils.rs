@@ -76,3 +76,8 @@ pub fn divide(mut v1: Vec<i128>, num: i128){
     }
 }
 
+pub fn print_as_vector(v: Vec<f64>) {
+    for i in v {
+        println!("{}", i);
+    };
+}
