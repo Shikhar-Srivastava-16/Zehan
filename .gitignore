@@ -12,3 +12,6 @@ Cargo.lock
 
 # MSVC Windows builds of rustc generate these, which store debugging information
 *.pdb
+
+#notes for developer reference; not needed (or comprehensible...when I wrote this, two people knew what this means: God and I. Now, only one person knows)
+*.txt
