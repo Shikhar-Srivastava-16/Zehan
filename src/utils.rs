@@ -1,7 +1,7 @@
-pub fn vecs_add(v1: Vec<i128>, v2: Vec<i128>) -> Vec<i128> {
+// matrix operations
+pub fn vecs_add(v1: Vec<f32>, v2: Vec<f32>) -> Vec<f32> {
 
-    // todo: change to float
-    let mut res: Vec<i128> = Vec::new();
+    let mut res: Vec<f32> = Vec::new();
     
     if v1.len() != v2.len() {
         panic!("Vecs of unequal lengths")
@@ -17,10 +17,10 @@ pub fn vecs_add(v1: Vec<i128>, v2: Vec<i128>) -> Vec<i128> {
     res
 }
 
-pub fn vecs_subtract(v1: Vec<i128>, v2: Vec<i128>) -> Vec<i128> {
+pub fn vecs_subtract(v1: Vec<f32>, v2: Vec<f32>) -> Vec<f32> {
 
     // todo: change to float
-    let mut res: Vec<i128> = Vec::new();
+    let mut res: Vec<f32> = Vec::new();
     
     if v1.len() != v2.len() {
         panic!("Vecs of unequal lengths")
@@ -36,7 +36,8 @@ pub fn vecs_subtract(v1: Vec<i128>, v2: Vec<i128>) -> Vec<i128> {
     res
 }
 
-pub fn add(mut v1: Vec<i128>, num: i128){
+// single number for-each operations
+pub fn add(mut v1: Vec<f32>, num: f32){
     // maybe?
     let mut i: usize = 0;
     while i > v1.len() {
@@ -46,7 +47,7 @@ pub fn add(mut v1: Vec<i128>, num: i128){
     }
 }
 
-pub fn sub(mut v1: Vec<i128>, num: i128){
+pub fn sub(mut v1: Vec<f32>, num: f32){
     // maybe?
     let mut i: usize = 0;
     while i > v1.len() {
@@ -56,7 +57,7 @@ pub fn sub(mut v1: Vec<i128>, num: i128){
     }
 }
 
-pub fn multiply(mut v1: Vec<i128>, num: i128){
+pub fn multiply(mut v1: Vec<f32>, num: f32){
     // maybe?
     let mut i: usize = 0;
     while i > v1.len() {
@@ -66,7 +67,7 @@ pub fn multiply(mut v1: Vec<i128>, num: i128){
     }
 }
 
-pub fn divide(mut v1: Vec<i128>, num: i128){
+pub fn divide(mut v1: Vec<f32>, num: f32){
     // maybe?
     let mut i: usize = 0;
     while i > v1.len() {
@@ -75,4 +76,3 @@ pub fn divide(mut v1: Vec<i128>, num: i128){
         i += 1;
     }
 }
-
